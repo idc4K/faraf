@@ -40,7 +40,9 @@ html {
     padding: 26px 0px 0px 55px;
 }
 .header-top #logo{
-    height: 35px;
+    width: 200px;
+    height: 200px;
+    margin-top: -80px;
 }
 .header-top .submit{
     background-color: #e50914;
@@ -95,7 +97,12 @@ html {
     margin-left: -0.3%;
     font-weight: bold;
 }
-/*HEADER SECTION ENDS*/
+
+.header-top button{
+    
+    border-radius: 20%;
+}
+/*HEADER SECTION FIN*/
 
 /* SECTION1*/
     
