@@ -80,7 +80,7 @@ html {
 }
 .header .message-container h1{
     font-size: 3.9rem;
-    margin-left: 16%;
+    margin-left: 1%;
 }
 .header .message-container .para-1{
     font-size: 1.7rem;
@@ -246,11 +246,11 @@ footer h5{
     .header .message-container{
         position: relative;
         top: 120px;
-        padding-top: 90px;
+        padding-top: 1px;
     }
      .header .message-container h1{
         font-size: 3rem;
-        margin-right: 150px;
+        margin-right: 15px;
     }
     .header .message-container .para-1{
         font-size: 2rem;
@@ -306,7 +306,7 @@ footer h5{
 
    .header .message-container h1{
         font-size: 3rem;
-        margin-right: 130px;
+        margin-right: 10px;
     }
 }
 
@@ -351,11 +351,11 @@ footer h5{
     
     .header .message-container{
         position: relative;
-        top: 20px;
+        top: -13px;
     }
     .header .message-container h1{
         font-size: 2rem;
-        padding: 50px;
+        padding: 1px;
         padding-bottom: 0px;
     }
    .header .message-container .para-1{
@@ -376,7 +376,7 @@ footer h5{
 
     .header .message-container h1{
         font-size: 1.9rem;
-        margin-right: 90px;
+        margin-right: 10px;
     }
 }
 @media (max-width: 500px){
@@ -416,21 +416,29 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 100px;
+        padding-top: 220px;
     }
      .header .message-container h1{
         font-size: 1.9rem;
-        margin-right: 50px;
+        margin-right: 15px;
     }
+}
+@media (max-width: 384px){
+    
+     .header .message-container{
+        
+        padding-top: 120px;
+    }
+     
 }
 @media (max-width: 360px){
     .header .message-container{
         
-        padding-top: 10px;
+        padding-top: 70px;
     }
      .header .message-container h1{
         font-size: 1.9rem;
-        margin-right: 50px;
+        margin-right: 10px;
     }
 }
 
@@ -474,7 +482,7 @@ footer h5{
     }
     .header .message-container h1{
         font-size: 1.5rem;
-        margin-right: 25px;
+        margin-right: 10px;
     }
    .header .message-container .para-1{
         font-size: 1rem;
