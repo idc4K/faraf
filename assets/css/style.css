@@ -42,7 +42,7 @@ html {
 .header-top #logo{
     width: 200px;
     height: 200px;
-    margin-top: -80px;
+    margin-top: -88px;
 }
 .header-top .submit{
     background-color: #e50914;
@@ -342,9 +342,7 @@ footer h5{
     .header-top{
         padding: 26px 0px 0px 25px;
     }
-    .header-top #logo{
-        height: 25px;
-    }
+    
     .header-top .submit{
         position: relative;
         right: 25px;
@@ -438,9 +436,7 @@ footer h5{
 
 @media(max-width: 346px){
     /*NAVBAR*/
-    .header-top #logo{
-        height: 22px;
-    }
+    
     .header-top .submit{
         padding: 1px 5px;
     }
@@ -487,5 +483,11 @@ footer h5{
         font-size: 0.8rem;
     }
 
+
+}
+/*
+LOGO RESPONSIVITE*/
+
+@media (max-width: 660px){
 
 }
