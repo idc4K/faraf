@@ -436,7 +436,7 @@ footer h5{
 @media (max-width: 412px){
     .header .message-container{
         
-        padding-top: 80px;
+        padding-top: 120px;
     }
 }
 @media (max-width: 384px){
@@ -486,7 +486,7 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 200px;
+        padding-top: 150px;
     }
 }
 
