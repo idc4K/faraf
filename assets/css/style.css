@@ -106,6 +106,7 @@ html {
 
 /* SECTION1*/
     
+     /*IMAGE DROITE TEXTE GAUCHE*/
     .section1 .section1-container{
         border-top: 8px solid #222;
         background-color: black;
@@ -113,6 +114,7 @@ html {
         padding: 0px 80px;
         padding-bottom: 90px;
     }
+
     .section1 .section1-container .col-gauche{
         padding-top: 13%;
         padding-right: 2%;
@@ -138,7 +140,7 @@ html {
         margin-top: 10%;
     }
    
-    
+     /*IMAGE GAUCHE TEXTE DROITE*/
     .section1 .section2-container{
         border-top: 8px solid #222;
         background-color: black;
@@ -149,8 +151,6 @@ html {
     .section1 .section2-container .col-gauche img{
         width: 100%;
     }
-    
-    
     
     .section1 .section2-container .col-droite{
         padding-top: 13%;
@@ -166,16 +166,13 @@ html {
         font-weight: normal;
         margin-top: 5%;
     }
-   
 
-    /*IMAGE GAUCHE TEXTE DROITE*/
     .section1 .section2-container .col-droite img{
         width: 100%;
     }
-    
+
+
 /*  SECTION1 FIN */
-
-
 footer{
     background-color: black;
     border-top: 8px solid #222;
@@ -251,6 +248,7 @@ footer h5{
      .header .message-container h1{
         font-size: 3rem;
         margin-right: 15px;
+        padding: 10px;
     }
     .header .message-container .para-1{
         font-size: 2rem;
@@ -300,13 +298,32 @@ footer h5{
 @media (max-width:912px){
    .header .message-container{
         
-        padding-top: 400px;
+        padding-top: 170px;
+    }
+
+    .header .message-container{
+        position: relative;
+        top: -5px;
     }
      
 
    .header .message-container h1{
         font-size: 3rem;
         margin-right: 10px;
+        padding: 10px;
+    }
+}
+
+@media(max-width: 800px){
+    .header .message-container h1{
+        font-size: 2rem;
+        padding: 10px;
+        padding-bottom: -10px;
+    }
+
+     .header .message-container{
+        
+        padding-top: 170px;
     }
 }
 
@@ -317,26 +334,7 @@ footer h5{
     }
 }
 
-@media(max-width: 800px){
-    .header .message-container h1{
-        font-size: 2rem;
-        padding: 50px;
-        padding-bottom: -10px;
-    }
 
-     .header .message-container{
-        
-        padding-top: 200px;
-    }
-}
-
- 
-@media(max-width: 640px){
-    .header .message-container{
-        
-        padding-top: 0px;
-    }
-}
 @media(max-width: 659px){
     /*NAVBAR*/
     .header-top{
@@ -351,7 +349,7 @@ footer h5{
     
     .header .message-container{
         position: relative;
-        top: -13px;
+        top: -5px;
     }
     .header .message-container h1{
         font-size: 2rem;
@@ -364,9 +362,20 @@ footer h5{
    .header .message-container .para-2{
         font-size: 1rem;
     }
-   
+   .header .message-container{
+        
+        padding-top: 200px;
+    }
    
 }
+
+@media(max-width: 640px){
+    .header .message-container{
+        
+        padding-top: 200px;
+    }
+}
+
 @media (max-width: 600px){
     
      .header .message-container{
@@ -391,7 +400,7 @@ footer h5{
     }
      .header .message-container{
         
-        padding-top: 90px;
+        padding-top: 200px;
     }
     
     
@@ -434,7 +443,7 @@ footer h5{
 @media (max-width: 360px){
     .header .message-container{
         
-        padding-top: 70px;
+        padding-top: 160px;
     }
      .header .message-container h1{
         font-size: 1.9rem;
@@ -463,13 +472,14 @@ footer h5{
     .header .message-container .para-2{
         font-size: 0.8rem;
     }
+   
 }
 @media(max-width: 320px){
 
     
      .header .message-container{
         
-        padding-top: 2.5px;
+        padding-top: 200px;
     }
 }
 
@@ -478,7 +488,7 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 40px;
+        padding-top: 180px;
     }
     .header .message-container h1{
         font-size: 1.5rem;
@@ -496,6 +506,28 @@ footer h5{
 /*
 LOGO RESPONSIVITE*/
 
-@media (max-width: 660px){
+@media (max-width: 410px){
+  .header-top #logo{
+    width: 150px;
+    height: 150px;
+    margin-top: -65px;
+}
+}
 
+@media (max-width: 320px){
+  .header-top #logo{
+    width: 120px;
+    height: 120px;
+    margin-right: 10px;
+    margin-top: -45px;
+}
+}
+
+@media (max-width: 300px){
+  .header-top #logo{
+    width: 100px;
+    height: 100px;
+   
+    margin-top: -35px;
+}
 }
