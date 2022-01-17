@@ -450,7 +450,7 @@ footer h5{
 @media (max-width: 360px){
     .header .message-container{
         
-        padding-top: 150px;
+        padding-top: 100px;
     }
      .header .message-container h1{
         font-size: 1.9rem;
@@ -486,7 +486,7 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 150px;
+        padding-top: 200px;
     }
 }
 
