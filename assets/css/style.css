@@ -242,7 +242,7 @@ footer h5{
 
     .header .message-container{
         position: relative;
-        top: 120px;
+        top: 50px;
         padding-top: 1px;
     }
      .header .message-container h1{
@@ -323,7 +323,7 @@ footer h5{
 
      .header .message-container{
         
-        padding-top: 170px;
+        padding-top: 300px;
     }
 }
 
@@ -372,15 +372,18 @@ footer h5{
 @media(max-width: 640px){
     .header .message-container{
         
-        padding-top: 200px;
+        padding-top: 50px;
+        position: relative;
+        top: -90px;
     }
+
 }
 
 @media (max-width: 600px){
     
      .header .message-container{
         
-        padding-top: 200px;
+        padding-top: 360px;
     }
 
     .header .message-container h1{
@@ -388,6 +391,19 @@ footer h5{
         margin-right: 10px;
     }
 }
+@media (max-width: 540px){
+    
+     .header .message-container{
+        
+        padding-top: 260px;
+    }
+
+    .header .message-container h1{
+        font-size: 1.9rem;
+        margin-right: 10px;
+    }
+}
+
 @media (max-width: 500px){
     .header .message-container h1{
         font-size: 1.8rem;
@@ -425,7 +441,7 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 150px;
+        padding-top: 280px;
     }
      .header .message-container h1{
         font-size: 1.9rem;
@@ -436,14 +452,15 @@ footer h5{
 @media (max-width: 412px){
     .header .message-container{
         
-        padding-top: 120px;
+        padding-top: 180px;
     }
 }
-@media (max-width: 384px){
+
+@media (max-width: 395px){
     
      .header .message-container{
         
-        padding-top: 120px;
+        padding-top: 200px;
     }
      
 }
@@ -486,7 +503,7 @@ footer h5{
     
      .header .message-container{
         
-        padding-top: 200px;
+        padding-top: 150px;
     }
 }
 
